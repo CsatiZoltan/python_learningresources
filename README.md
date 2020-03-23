@@ -1,6 +1,13 @@
 # python_learningresources
 Links to books, repositories, blogs and videos about useful Python resources
 
+
+## Best practices
+
+- [How to order methods in a class?](https://stackoverflow.com/questions/10289461/what-is-a-good-way-to-order-methods-in-a-python-class)
+
+
+
 ## GUIs
 
 - view *pandas* DataFrame objects
