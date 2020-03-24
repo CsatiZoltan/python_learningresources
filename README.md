@@ -12,6 +12,9 @@ Links to books, repositories, blogs and videos about useful Python resources
 
 - [Append text file in the middle](https://stackoverflow.com/questions/10507230/insert-line-at-middle-of-file-with-python)
 
+### Conventions
+
+A major design priciple behind Python was that code should be easily read. Conventions greatly improve the readability of your code, making it ''Pythonic''.
 
 
 ## Best practices
