@@ -2,9 +2,15 @@
 Links to books, repositories, blogs and videos about useful Python resources
 
 
-## Language fundamentals
+## Language
+
+### Language fundamentals
 
 - [Difference between lists and tuples](https://stackoverflow.com/questions/626759/whats-the-difference-between-lists-and-tuples)
+
+### File handling
+
+- [Append text file in the middle](https://stackoverflow.com/questions/10507230/insert-line-at-middle-of-file-with-python)
 
 
 
