@@ -7,6 +7,7 @@ Links to books, repositories, blogs and videos about useful Python resources
 ### Language fundamentals
 
 - [Difference between lists and tuples](https://stackoverflow.com/questions/626759/whats-the-difference-between-lists-and-tuples)
+- [Create dictionary from two lists](https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary)
 
 ### File handling
 
