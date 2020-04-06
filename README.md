@@ -18,6 +18,17 @@ Links to books, repositories, blogs and videos about useful Python resources
 A major design priciple behind Python was that code should be easily read. Conventions greatly improve the readability of your code, making it ''Pythonic''.
 
 
+
+## Packaging
+
+The directory structure of a Python project should be created so that it is easily testable, deployable and put under continuous integration. Some links I found useful:
+
+- https://github.com/yngvem/python-project-structure
+- https://www.kennethreitz.org/essays/repository-structure-and-python
+- https://hynek.me/articles/testing-packaging/
+
+
+
 ## Best practices
 
 - [How to order methods in a class?](https://stackoverflow.com/questions/10289461/what-is-a-good-way-to-order-methods-in-a-python-class)
