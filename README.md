@@ -35,6 +35,25 @@ The directory structure of a Python project should be created so that it is easi
 
 
 
+## Visualization
+
+### Plotting with Matplotlib
+
+Browse the extensive [gallery](https://matplotlib.org/3.1.1/gallery/index.html) for examples, read the [User's Guide](https://matplotlib.org/3.1.1/contents.html), or check the [tutorials](https://matplotlib.org/3.1.1/tutorials/index.html).
+Two types of plotting:
+- pyplot: high-level MATLAB-like plotting for simple interactive plotting
+   - [tutorial](https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html)
+   - [gallery](https://matplotlib.org/3.1.1/gallery/index.html#pyplots-examples)
+   - [API](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html)
+- object-oriented API
+   - [gallery](https://matplotlib.org/3.1.1/gallery/index.html)
+ 
+Links to APIs I often use:
+- [Figure class](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.figure.Figure.html)
+- [axes module](https://matplotlib.org/3.2.1/api/axes_api.html)
+
+
+
 ## GUIs
 
 - view *pandas* DataFrame objects
