@@ -9,6 +9,24 @@ Links to books, repositories, blogs and videos about useful Python resources
 - [Difference between lists and tuples](https://stackoverflow.com/questions/626759/whats-the-difference-between-lists-and-tuples)
 - [Create dictionary from two lists](https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary)
 - [Index a list with another list](https://stackoverflow.com/a/1012197/4892892)
+- [Single list from a list of lists](https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists); example and expected output:
+   ```python
+   nested_list = [['some'], ['items']]
+   flat_list = ['some', 'items']
+   ```
+   - [List comprehension](https://stackoverflow.com/a/952952/4892892)
+      ```python
+      flat_list = [item for sublst in nested_list for item in sublst]
+      ```
+   - [Chaining](https://stackoverflow.com/a/953097/4892892)
+      ```python
+      import itertools
+      flat_list = list(itertools.chain.from_iterable(nested_list))
+      # equivalently: flat_list = list(itertools.chain(*nested_list))
+      ```
+   - [Monoid](https://stackoverflow.com/a/952946/4892892)
+      ```python
+      flat_list = sum(nested_list, [])
 
 ### File handling
 
@@ -20,7 +38,7 @@ A major design priciple behind Python was that code should be easily read. Conve
 
 
 
-## Packaging
+## Packaging  
 
 The directory structure of a Python project should be created so that it is easily testable, deployable and put under continuous integration. Some links I found useful:
 
