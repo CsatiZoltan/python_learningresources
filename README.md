@@ -48,6 +48,32 @@ The directory structure of a Python project should be created so that it is easi
 
 
 
+## NumPy
+
+- [NumPy version](https://stackoverflow.com/a/1520264/4892892)
+   ```python
+   import numpy
+   print numpy.__version__
+   ```
+   or from the command line:
+   ```python
+   python -c 'import numpy; print(numpy.__version__)'
+   ```
+- Print information about the CPU
+   ```python
+   import numpy.distutils.cpuinfo.cpu
+   cpu.info()
+   ```
+- Figure out which BLAS and LAPACK implementations are used by your NumPy (and therefore SciPy, etc.)
+   ```python
+   import numpy.distutils.system_info
+   get_info('blas_opt')
+   get_info('lapack_opt')
+   ```
+   [Here](https://github.com/numpy/numpy/blob/v1.19.0/numpy/distutils/system_info.py#L401-L485) is the list of all options for `get_info`.
+
+
+
 ## Best practices
 
 - [How to order methods in a class?](https://stackoverflow.com/questions/10289461/what-is-a-good-way-to-order-methods-in-a-python-class)
