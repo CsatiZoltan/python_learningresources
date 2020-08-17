@@ -97,6 +97,8 @@ Links to APIs I often use:
 - [Figure class](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.figure.Figure.html)
 - [axes module](https://matplotlib.org/3.2.1/api/axes_api.html)
 
+[Positioning the legend](https://matplotlib.org/3.2.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legendhttps://matplotlib.org/3.2.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend)
+
 
 
 ## GUIs
