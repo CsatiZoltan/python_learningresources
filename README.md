@@ -27,6 +27,11 @@ Links to books, repositories, blogs and videos about useful Python resources
    - [Monoid](https://stackoverflow.com/a/952946/4892892)
       ```python
       flat_list = sum(nested_list, [])
+- [Slice assignment](https://stackoverflow.com/questions/32448414/what-does-colon-at-assignment-for-list-do-in-python?)
+   
+   ```python
+   
+   ```
 
 ### File handling
 
