@@ -116,3 +116,10 @@ Links to APIs I often use:
   matplotlib.use('WXAgg')
   ```
   as shown [here](https://github.com/bluenote10/PandasDataFrameGUI/issues/3#issuecomment-324940242).
+  
+  
+  ## Online
+  
+  ### Binder
+  
+  - [Generate custom badges](https://mybinder.readthedocs.io/en/latest/howto/badges.html#generate-custom-launch-badges-for-your-binder-repository): the link you need to insert comes from [MyBinder](https://mybinder.org/).
