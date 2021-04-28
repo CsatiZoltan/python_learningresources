@@ -32,6 +32,8 @@ Links to books, repositories, blogs and videos about useful Python resources
    ```python
    
    ```
+- [Using the `else` clause in `for` and `while` loops](https://stackoverflow.com/questions/9979970/why-does-python-use-else-after-for-and-while-loops)
+
 
 ### File handling
 
