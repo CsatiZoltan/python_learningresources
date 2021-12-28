@@ -107,6 +107,25 @@ Links to APIs I often use:
 [Positioning the legend](https://matplotlib.org/3.2.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legendhttps://matplotlib.org/3.2.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend)
 
 
+### Class hierarchy
+
+If you install Pylint, it comes with [Pyreverse](https://www.logilab.org/blogentry/6883). Type
+```python
+pyreverse -o <output_format> <module_name>
+```
+to the terminal to save the class hierarchy fetched from the module `<module_name>` in `<output_format>` (`png`, `svg`, `eps`, `pdf`, `dot`, etc.). Note that `module_name` must be importable. If `module_name` is a package that contains other packages or modules, all the contents of the package will be parsed. To select a subpackage or a module, use the slash; e.g. to process only *f2py* from *numpy*, use
+```python
+pyreverse -o png numpy/f2py
+```
+It is often useful for the end user to ignore the tests. You can ignore a directory by giving the `--ignore` flag. In the example above:
+```python
+pyreverse -o png --ignore tests numpy/f2py
+```
+For further options, check the documentation:
+```python
+pyreverse --help
+```
+
 
 ## GUIs
 
