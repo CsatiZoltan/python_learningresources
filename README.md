@@ -33,6 +33,31 @@ Links to books, repositories, blogs and videos about useful Python resources
    
    ```
 - [Using the `else` clause in `for` and `while` loops](https://stackoverflow.com/questions/9979970/why-does-python-use-else-after-for-and-while-loops)
+- [Function arguments](https://www.blog.pythonlibrary.org/2022/06/28/python-101-an-intro-to-functions)
+
+   As of Python 3.8, [positional-only arguments](https://peps.python.org/pep-0570/) are supported. These arguments cannot by passed as keywords.
+   The forward slash, /, indicates to Python that all arguments before the forward-slash are positional-only arguments. Anything following the forward slash are positional or keyword arguments up to the *. The asterisk indicates that everything following it are keyword-only arguments.
+   For instance, calling the function
+   ```python
+   def positional(name, age, /, a, b, *, key):
+       pass
+   ```
+   Here are some invalid calls to this function:
+   ```python
+   >>> positional(name='Mike')
+   TypeError: positional() got some positional-only arguments passed as keyword arguments: 'name'
+   >>> positional('Mike', 17, 2, b=3)
+   TypeError: positional() missing 1 required keyword-only argument: 'key'
+   >>> positional('Mike', 17, 2, 3, 'test')
+   TypeError: positional() takes 4 positional arguments but 5 were given
+   >>> positional('Mike', 17, 2, b=3, keyword='test')
+   TypeError: positional() got an unexpected keyword argument 'keyword'
+   ```
+   Some valid function calls are
+   ```python
+   positional('Mike', 17, 2, 3, key='test')
+   positional('Mike', 17, 2, b=3, key='test')
+   ```
 
 
 ### File handling
